@@ -1,0 +1,19 @@
+{
+  "name": "howdiii",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./public/tailwimd/tailwind.css -o ./public/css/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

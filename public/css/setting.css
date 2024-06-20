@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans;
+    text-direction: none;
+    overflow: hidden;
+    
+  }
+  @font-face {
+    font-family: font;
+    src: url(../../font/IRANSansWebFaNum-Medium.eot) format(eot);
+    src: url(../../font/IRANSansWebFaNum-Medium.ttf) format(ttf);
+    src: url(../../font/IRANSansWebFaNum-Medium.woff) format(woff);
+    src: url(../../font/IRANSansWebFaNum-Medium.woff2) format(woff2);
+  }
+  html,
+  body {
+    direction: rtl;
+  }
+   
+  :root {
+    --width: 100%;
+    --font--family: iran;
+  }
+  .wrapper {
+    width: 100%;
+  }
+ 

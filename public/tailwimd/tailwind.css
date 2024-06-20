@@ -1,0 +1,444 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: fontgol;
+  src: url(./../../font/IRANSansWebFaNum-Medium.eot) format(eot);
+  src: url(./../../font/IRANSansWebFaNum-Medium.ttf) format(ttf);
+  src: url(./../../font/IRANSansWebFaNum-Medium.woff) format(woff);
+  src: url(./../../font/IRANSansWebFaNum-Medium.woff2) format(woff2);
+}
+#navBar:checked + nav {
+  height: 460px;
+}
+
+@layer components {
+  .div-important {
+    @apply desktop:w-[screen] desktop:h-[screen] desktop:dark:bg-zinc-800 mobile:overflow-x-hidden mobile:dark:bg-zinc-800;
+  }
+
+  /*moarfi*/
+  .div-4 {
+    @apply desktop:w-[100%] desktop:h-[453px] desktop:bg-gradient-to-b desktop:from-white desktop:to-gray-300 desktop:flex desktop:flex-row-reverse desktop:items-center desktop:justify-between desktop:px-[300px] mobile:w-[100%] mobile:h-[810px] mobile:bg-gradient-to-b mobile:from-white mobile:to-gray-300 mobile:flex mobile:flex-col mobile:font-thin mobile:items-center dark:desktop:bg-gradient-to-b dark:relative mobile:dark:relative mobile:dark:bg-gradient-to-b;
+  }
+
+  .div-5 {
+    @apply desktop:w-[50%] desktop:h-[100%] desktop:py-[10px] desktop:flex desktop:flex-col desktop:px-[10px] desktop:text-right mobile:w-[100%] mobile:h-[100%] mobile:py-[10px] mobile:flex mobile:flex-col mobile:px-[10px] mobile:text-right mobile:items-end;
+  }
+
+  .h2-class {
+    @apply desktop:text-[25px] desktop:w-[100%] desktop:h-[105px] desktop:font-fontsans desktop:font-thin desktop:text-[#FF0000] desktop:pt-[43px] mobile:text-[30px] mobile:w-[100%] mobile:h-[105px] mobile:font-fontsans mobile:font-thin mobile:text-[#FF0000] mobile:pt-[43px] mobile:text-right;
+  }
+
+  .h3-class {
+    @apply desktop:text-[18px] desktop:font-fontsans desktop:h-[15px] desktop:text-neutral-600 desktop:text-right mobile:text-[0] mobile:font-thin desktop:dark:text-orange-500 mobile:dark:text-orange-500;
+  }
+
+  .h3-class-1 {
+    @apply desktop:text-[16px] desktop:font-fontsans desktop:h-[170px] desktop:text-neutral-400 desktop:text-right desktop:leading-9 desktop:mt-[35px] mobile:text-[16px] mobile:font-fontsans mobile:h-[170px] mobile:text-neutral-400 text-right mobile:leading-9 mobile:mt-[35px] mobile:px-[10px] mobile:font-thin dark:text-zinc-800;
+  }
+
+  .div-line-grey {
+    @apply desktop:w-[100%] desktop:h-[1px] desktop:bg-slate-200 desktop:my-[13px]
+  mobile:w-[100%] mobile:h-[1px] mobile:bg-slate-200 mobile:my-[13px];
+  }
+
+  .image-fk {
+    @apply desktop:w-[316px] desktop:h-[364px] mobile:w-[315px] mobile:h-[400px] mobile:z-50;
+  }
+
+  /*middle*/
+  .div-7 {
+    @apply desktop:w-[100%] desktop:h-[1100px] desktop:flex desktop:flex-col desktop:items-end desktop:px-[300px] desktop:py-[30px] mobile:w-[100%] mobile:h-[810px] mobile:flex mobile:flex-col mobile:items-end;
+  }
+
+  .p-class {
+    @apply desktop:text-right desktop:text-[25px] desktop:h-[60px] desktop:w-[210px] desktop:text-[#FF0000] desktop:font-fontsans mobile:text-right mobile:text-[20px] mobile:h-[40px] mobile:w-[170px] mobile:text-[#FF0000] mobile:font-fontsans mobile:mt-[50px] mobile:px-[15px] dark:text-neutral-200;
+  }
+
+  .p-class-1 {
+    @apply desktop:text-[16px] desktop:font-fontsans desktop:h-[170px] desktop:text-neutral-400 desktop:text-right desktop:leading-9 desktop:mt-[35px] mobile:text-[14px] mobile:font-fontsans mobile:h-[170px] mobile:text-neutral-400 mobile:text-right mobile:leading-9 mobile:mt-[35px] mobile:px-[15px] mobile:my-[10px] mobile:font-thin;
+  }
+
+  .p-class-2 {
+    @apply desktop:text-right desktop:text-[25px] desktop:h-[40px] desktop:w-[250px] desktop:text-[#FF0000] desktop:font-fontsans mobile:text-right mobile:text-[20px] mobile:h-[70px] mobile:w-[210px] mobile:text-[#FF0000] mobile:font-fontsans mobile:py-[20px] mobile:px-[15px] dark:text-neutral-200;
+  }
+
+  .div-8 {
+    @apply desktop:w-[100%] desktop:h-[296px] desktop:flex desktop:flex-row desktop:justify-between mobile:w-0 mobile:h-0 mobile:object-none mobile:text-[0];
+  }
+
+  .div-9 {
+    @apply desktop:w-[20%] desktop:h-[100%];
+  }
+
+  .div-10 {
+    @apply desktop:w-[100%] desktop:h-[100%] desktop:flex desktop:flex-col desktop:items-center;
+  }
+
+  .image-2 {
+    @apply desktop:w-[185px] desktop:h-[185px] mobile:w-0 mobile:h-0 mobile:object-none dark:shadow-lg dark:shadow-slate-50 dark:drop-shadow-lg;
+  }
+
+  .p-class-3 {
+    @apply desktop:text-[17px] desktop:text-neutral-500 desktop:h-[20%] desktop:w-[100%] desktop:py-[7px] desktop:text-center desktop:font-fontsans mobile:w-0 mobile:h-0 mobile:object-none dark:text-zinc-300 dark:font-bold;
+  }
+
+  .div-11 {
+    @apply desktop:w-[100%] desktop:h-[100%] desktop:flex desktop:flex-col desktop:items-center;
+  }
+
+  .div-12 {
+    @apply desktop:w-[100%] desktop:h-[1px] desktop:bg-slate-200;
+  }
+
+  /*photos*/
+
+  .div-13 {
+    @apply desktop:h-[600px] desktop:w-[100%] desktop:flex desktop:flex-col desktop:flex-wrap mobile:object-none mobile:text-[0];
+  }
+
+  .image-rice {
+    @apply desktop:w-[100%] desktop:h-[500px] desktop:absolute
+  mobile:w-[100%] mobile:h-[147px] dark:shadow-2xl dark:shadow-slate-300 dark:drop-shadow-lg;
+  }
+
+  .div-14 {
+    @apply desktop:w-[260px] desktop:h-[96px] desktop:bg-red-600 desktop:relative desktop:bottom-[-67.3%] desktop:right-[-64%] desktop:z-20 desktop:flex desktop:flex-col desktop:items-end desktop:px-[15px] desktop:pt-[10px] mobile:w-[100%] mobile:h-[96px] mobile:bg-red-600 mobile:flex mobile:flex-col mobile:items-end mobile:px-[15px] mobile:pt-[10px];
+  }
+
+  .div-15 {
+    @apply desktop:text-right desktop:text-[28px] desktop:h-[30px] desktop:w-[170px] desktop:text-white desktop:font-fontsans desktop:mb-[14px] mobile:text-right mobile:text-[25px] mobile:font-thin mobile:h-[30px] mobile:w-[170px] mobile:text-white mobile:font-fontsans mobile:mb-[14px];
+  }
+
+  .div-16 {
+    @apply desktop:text-right desktop:text-[17px] desktop:h-[30px] desktop:w-[170px] desktop:text-white desktop:font-fontsans mobile:text-right mobile:text-[17px] mobile:h-[30px] mobile:w-[170px] mobile:text-white mobile:font-fontsans;
+  }
+
+  .div-17 {
+    @apply desktop:w-[99%] desktop:h-[1px] desktop:bg-slate-200 desktop:my-[13px];
+  }
+
+  .div-18 {
+    @apply desktop:w-[100%] desktop:h-[420px] desktop:px-[300px] desktop:flex desktop:flex-col desktop:items-end mobile:w-[100%] mobile:h-[500px] mobile:px-[15px] mobile:flex mobile:flex-col mobile:items-end;
+  }
+
+  .p-class-4 {
+    @apply desktop:text-[26px] desktop:w-[100%] desktop:h-[105px] desktop:text-[#FF0000] desktop:pt-[30px] desktop:text-right desktop:font-fontsans mobile:text-[20px] mobile:w-[100%] mobile:h-[105px] mobile:text-[#FF0000] mobile:pt-[30px] mobile:text-right mobile:font-fontsans mobile:pr-[15px] dark:text-neutral-200;
+  }
+
+  .p-class-5 {
+    @apply desktop:text-[20px] desktop:font-fontsans desktop:h-[200px] desktop:text-neutral-400 desktop:text-right desktop:leading-9 desktop:mt-[30px] mobile:text-[14px] mobile:font-thin mobile:font-fontsans mobile:h-[200px] mobile:text-neutral-400 mobile:text-right mobile:leading-9 mobile:my-[10px] mobile:px-[15px];
+  }
+
+  .nav-class {
+    @apply w-auto h-auto;
+  }
+
+  .buttom-claases {
+    @apply desktop:outline-gray-300 desktop:text-gray-500 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[150px] desktop:font-thin desktop:py-2 desktop:px-4 desktop:rounded-md desktop:font-fontsans desktop:mt-[60px] desktop:mb-[17px] mobile:outline-gray-300 mobile:text-gray-500 mobile:border-slate-300 mobile:border mobile:hover:bg-red-500 mobile:hover:text-white mobile:transition-all mobile:duration-[300ms] mobile:w-[150px] mobile:font-thin mobile:py-2 mobile:px-4 mobile:rounded-md mobile:font-fontsans mobile:mt-[110px] mobile:mb-[17px] mobile:bg-neutral-100 desktop:bg-neutral-100;
+  }
+
+  .div-19 {
+    @apply desktop:w-[100%] desktop:h-[590px] desktop:px-[300px] desktop:flex desktop:flex-col desktop:items-end mobile:w-[100%] mobile:h-[590px] mobile:px-[15px] mobile:flex mobile:flex-col mobile:items-end;
+  }
+
+  .p-class-5 {
+    @apply desktop:text-[20px] desktop:font-fontsans h-[120px] desktop:text-neutral-400 desktop:text-right desktop:leading-9 desktop:mt-[30px];
+  }
+
+  .elevator {
+    @apply desktop:bg-fixed desktop:bg-cover desktop:bg-center desktop:sticky;
+  }
+
+  .div-20 {
+    @apply desktop:w-[100%] desktop:h-[121px] desktop:flex desktop:justify-end desktop:flex-row mobile:w-[100%] mobile:h-[105px] mobile:flex mobile:justify-end mobile:flex-row;
+  }
+
+  .p-classes-r {
+    @apply desktop:text-right desktop:text-[25px] desktop:h-[40px] desktop:w-[200px]  desktop:text-[#FF0000]  desktop:font-fontsans desktop:pt-[40px] desktop:mr-[29px] mobile:text-right mobile:text-[17px] mobile:h-[40px] mobile:w-[200px] mobile:text-[#FF0000] mobile:font-fontsans mobile:pt-[40px] mobile:mr-[29px];
+  }
+
+  .div-chila {
+    @apply desktop:w-[100%] desktop:h-[1000px] desktop:bg-[#CDE4B0] desktop:flex desktop:flex-row desktop:justify-center desktop:pt-[95px] mobile:w-[100%] mobile:h-[1500px] mobile:bg-[#CDE4B0] mobile:flex mobile:flex-col mobile:items-center mobile:pt-[95px] dark:relative dark:bg-neutral-400;
+  }
+
+  .div-chila-2 {
+    @apply desktop:w-[978.4px] desktop:h-[587.1px] desktop:flex desktop:flex-row desktop:justify-between mobile:w-[978.4px] mobile:h-[587.1px] mobile:flex mobile:flex-col mobile:items-center dark:z-50;
+  }
+
+  .div-green-chil {
+    @apply desktop:w-1/3 desktop:h-[100%] desktop:flex desktop:flex-col desktop:flex-wrap desktop:items-center desktop:shadow-lg desktop:shadow-neutral-600 mobile:w-1/3 mobile:h-[100%] mobile:flex mobile:flex-col mobile:flex-wrap mobile:items-center mobile:shadow-lg mobile:shadow-neutral-600 mobile:my-[30px];
+  }
+
+  .div-green-chill {
+    @apply desktop:w-1/3 desktop:h-[100%] desktop:flex desktop:flex-col desktop:flex-wrap desktop:items-center desktop:shadow-lg desktop:shadow-neutral-600 mobile:text-[0] mobile:w-0 mobile:h-0 mobile:object-none;
+  }
+
+  .image-chil {
+    @apply desktop:w-[100%] desktop:h-[100%] desktop:hover:opacity-80 mobile:w-[100%] mobile:h-[100%] mobile:hover:opacity-80;
+  }
+
+  .div-white {
+    @apply desktop:w-[97.9%] desktop:h-[295px] desktop:bg-white desktop:flex desktop:flex-col desktop:items-end desktop:py-[22px] desktop:px-[22px] desktop:justify-center mobile:w-[97.9%] mobile:h-[295px] mobile:bg-white mobile:flex mobile:flex-col mobile:items-end mobile:py-[22px] mobile:px-[22px] mobile:justify-center;
+  }
+
+  .div-whitee {
+    @apply desktop:w-[97.9%] desktop:h-[295px] desktop:bg-white desktop:flex desktop:flex-col desktop:items-end desktop:py-[22px] desktop:px-[22px] desktop:justify-center mobile:text-[0] mobile:object-none;
+  }
+
+  .div-red {
+    @apply desktop:text-right desktop:text-[20px] desktop:h-[30px] desktop:w-[200px] desktop:text-rose-600 desktop:font-fontsans desktop:pt-[40px] desktop:mr-[5px] desktop:mb-[10px]  mobile:text-right mobile:text-[20px] mobile:h-[30px] mobile:w-[200px] mobile:text-rose-600 mobile:font-fontsans mobile:pt-[40px] mobile:mr-[5px] mobile:mb-[10px];
+  }
+
+  .div-redd {
+    @apply desktop:text-right desktop:text-[20px] desktop:h-[30px] desktop:w-[200px] desktop:text-rose-600 desktop:font-fontsans desktop:pt-[40px] desktop:mr-[5px] desktop:mb-[10px] mobile:text-[0] mobile:object-none;
+  }
+
+  .div-grey {
+    @apply desktop:text-[13px] desktop:font-fontsans desktop:h-[60px] desktop:text-neutral-400 desktop:text-right desktop:leading-10 desktop:mt-[30px] mobile:text-[13px] mobile:font-fontsans mobile:h-[60px] mobile:text-neutral-400 mobile:text-right mobile:leading-10 mobile:mt-[30px];
+  }
+
+  .div-greyy {
+    @apply desktop:text-[13px] desktop:font-fontsans desktop:h-[60px] desktop:text-neutral-400 desktop:text-right desktop:leading-10 desktop:mt-[30px] mobile:text-[0] mobile:object-none;
+  }
+
+  .div-matlab {
+    @apply desktop:outline-gray-300 desktop:text-gray-400 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[130px] desktop:font-thin desktop:py-2 desktop:px-4 desktop:rounded-md desktop:font-fontsans desktop:mb-[70px] desktop:mt-[100px] mobile:outline-gray-300 mobile:text-gray-400 mobile:border-slate-300 mobile:border mobile:hover:bg-red-500 mobile:hover:text-white mobile:transition-all mobile:duration-[300ms] mobile:w-[130px] mobile:font-thin mobile:py-2 mobile:px-4 mobile:rounded-md mobile:font-fontsans mobile:mb-[70px] mobile:mt-[100px];
+  }
+
+  .div-matlabb {
+    @apply desktop:outline-gray-300 desktop:text-gray-400 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[130px] desktop:text-[15px] desktop:font-thin desktop:py-2 desktop:px-4 desktop:rounded-md desktop:font-fontsans desktop:mb-[70px] desktop:mt-[100px] mobile:outline-gray-300;
+  }
+
+  /*videos*/
+  .div-videos {
+    @apply desktop:w-[100%] desktop:h-[700px] desktop:bg-white desktop:flex desktop:flex-row desktop:justify-center desktop:pt-[90px] desktop:pl-[240px] desktop:pr-[200px] mobile:w-[100%] mobile:h-[1250px] mobile:bg-white mobile:flex mobile:flex-col mobile:items-center mobile:pt-[15px] mobile:flex-wrap mobile:overscroll-x-none;
+  }
+
+  .div-white-video {
+    @apply desktop:h-[600px] desktop:w-[100%] desktop:flex desktop:flex-col desktop:flex-wrap desktop:bg-white;
+  }
+
+  .div-single {
+    @apply desktop:w-[315px] desktop:h-[83%] desktop:flex desktop:flex-col desktop:flex-wrap default:items-center desktop:shadow-zinc-400 desktop:rounded-lg mobile:w-[315px] mobile:h-[83%] mobile:flex mobile:flex-col mobile:flex-wrap mobile:items-center mobile:shadow-lg mobile:shadow-neutral-600 mobile:bg-white mobile:my-[35px];
+  }
+
+  .div-singlee {
+    @apply desktop:w-[315px] desktop:h-[83%] desktop:flex desktop:flex-col desktop:flex-wrap default:items-center desktop:shadow-lg desktop:shadow-zinc-400 desktop:rounded-lg mobile:object-none mobile:text-[0] mobile:mt-[34.5px];
+  }
+
+  .video-1 {
+    @apply desktop:w-[100%] desktop:h-[60%] mobile:w-[100%] mobile:h-[40%];
+  }
+
+  .video-11 {
+    @apply desktop:w-[100%] desktop:h-[60%] mobile:w-0 mobile:h-0 mobile:object-none;
+  }
+
+  .tittle-div {
+    @apply desktop:w-[97.9%] desktop:h-[100px] desktop:bg-white desktop:flex desktop:flex-col desktop:items-end desktop:pt-[70px] desktop:px-[22px] desktop:justify-center mobile:w-[97.9%] mobile:h-[100px] mobile:bg-white mobile:flex mobile:flex-col mobile:items-end mobile:pt-[70px] mobile:px-[22px] mobile:justify-center;
+  }
+
+  .tittle-divv {
+    @apply desktop:w-[97.9%] desktop:h-[100px] desktop:bg-white desktop:flex desktop:flex-col desktop:items-end desktop:pt-[70px] desktop:px-[22px] desktop:justify-center;
+  }
+
+  .p-tittle {
+    @apply desktop:w-[100%] desktop:text-right desktop:text-[20px] desktop:h-[30px] desktop:text-rose-600 desktop:font-fontsans desktop:mr-[5px] mobile:text-right mobile:text-[20px] mobile:h-[20px] mobile:w-[200px] mobile:text-rose-600 mobile:font-fontsans mobile:mr-[5px];
+  }
+
+  .p-tittlee {
+    @apply desktop:w-[100%] desktop:text-right desktop:text-[20px] desktop:h-[30px] desktop:text-rose-600 desktop:font-fontsans desktop:mr-[5px] mobile:object-none mobile:text-[0] mobile:w-0 mobile:h-0;
+  }
+
+  .matn-grey {
+    @apply desktop:text-[13px] desktop:font-fontsans desktop:h-[60px] desktop:text-neutral-400 desktop:text-right desktop:leading-10 desktop:mt-[15px] mobile:text-[13px] mobile:font-fontsans mobile:h-[60px] mobile:text-neutral-400 mobile:text-right mobile:leading-10 mobile:py-[30px];
+  }
+
+  .matn-greyy {
+    @apply desktop:text-[13px] desktop:font-fontsans desktop:h-[60px] desktop:text-neutral-400 desktop:text-right desktop:leading-10 desktop:mt-[15px];
+  }
+
+  .bottom-middle {
+    @apply desktop:outline-gray-300 desktop:text-gray-400 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[160px] desktop:py-2 desktop:px-4 desktop:rounded-md desktop:font-fontsans desktop:mb-[90px] desktop:mt-[140px] desktop:font-thin desktop:h-[40px] desktop:text-[15px] mobile:text-[0] mobile:w-0 mobile:h-0 mobile:object-none;
+  }
+
+  .bottom-middle-1 {
+    @apply desktop:outline-gray-300 desktop:text-gray-400 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[160px] desktop:py-2 desktop:px-4 desktop:rounded-md desktop:font-fontsans desktop:text-[15px] desktop:mb-[90px] desktop:mt-[140px] desktop:font-thin mobile:object-none mobile:text-[0] mobile:w-0 mobile:h-0 desktop:h-[40px];
+  }
+
+  .bottom-middle-11 {
+    @apply desktop:outline-gray-300 desktop:text-gray-400 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[160px] desktop:py-2 desktop:px-4 desktop:rounded-md desktop:font-fontsans desktop:mb-[90px] desktop:text-[15px] desktop:h-[40px] desktop:mt-[120px] desktop:font-thin mobile:object-none mobile:text-[0] mobile:w-0 mobile:h-0;
+  }
+
+  /*videos*/
+
+  .light {
+    @apply desktop:w-[100%] desktop:h-[1px] desktop:bg-[#009DA2] mobile:min-h-0 dark:bg-red-600 dark:shadow-2xl dark:shadow-slate-100;
+  }
+
+  .last {
+    @apply desktop:w-[100%] desktop:h-[325px] desktop:bg-white desktop:flex desktop:flex-col desktop:items-end desktop:px-[300px] mobile:w-full mobile:h-auto mobile:bg-white mobile:flex mobile:flex-col mobile:items-end mobile:px-[20px] mobile:min-h-0 dark:dark:bg-neutral-700;
+  }
+
+  .last-1 {
+    @apply desktop:text-[26px] desktop:w-[100%] desktop:h-[105px] desktop:font-fontsans desktop:text-[#FF0000] desktop:pt-[30px] desktop:text-right mobile:text-[20px] mobile:w-full mobile:h-[auto] mobile:font-fontsans mobile:text-[#FF0000] mobile:pt-[20px] mobile:text-right mobile:min-h-0 dark:text-neutral-100;
+  }
+
+  .last-2 {
+    @apply desktop:text-[15px] desktop:leading-10 desktop:font-fontsans desktop:h-[90px] desktop:text-neutral-400 desktop:text-right mt-[20px] mobile:text-[13px] mobile:leading-10 mobile:font-fontsans mobile:h-[auto] mobile:text-neutral-400 mobile:text-right mobile:min-h-0;
+  }
+
+  .last-3 {
+    @apply desktop:outline-gray-300 desktop:text-gray-400 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[150px] desktop:font-thin desktop:py-2 desktop:px-4 desktop:rounded-md desktop:font-fontsans desktop:mt-[60px] mobile:outline-gray-300 mobile:text-gray-400 mobile:border-slate-300 mobile:border mobile:hover:bg-red-500 mobile:hover:text-white mobile:transition-all mobile:duration-[300ms] mobile:w-[150px] mobile:font-thin mobile:py-2 mobile:px-4 mobile:rounded-md mobile:font-fontsans mobile:mt-[40px] mobile:min-h-0;
+  }
+
+  /*middle*/
+
+  .icon {
+    @apply desktop:w-[100%] desktop:h-[80px] desktop:bg-gray-200 desktop:flex desktop:flex-row desktop:justify-around desktop:py-[5px] desktop:px-[10px] mobile:w-full mobile:h-[auto] mobile:bg-gray-200 mobile:flex mobile:flex-row mobile:justify-around mobile:py-[10px] mobile:px-[10px] mobile:mt-[30px];
+  }
+
+  .icon-1 {
+    @apply desktop:w-[30%] desktop:h-[100%] desktop:flex desktop:flex-row desktop:justify-around desktop:pt-[10px] mobile:w-[100%] mobile:h-[auto] mobile:flex mobile:flex-row mobile:justify-around mobile:pt-[10px];
+  }
+
+  .icon-2 {
+    @apply desktop:w-[60px] desktop:h-[60px] mobile:w-[60px] mobile:h-[60px] desktop:box-border desktop:rounded-full desktop:hover:rounded-full desktop:transition-all desktop:ease-in-out desktop:duration-75 desktop:hover:bg-cover desktop:hover:object-cover desktop:hover:inset-2 desktop:hover:shadow-red-700 desktop:shadow-xl mobile:box-border mobile:rounded-full mobile:hover:rounded-full mobile:transition-all mobile:ease-in-out mobile:duration-75 mobile:hover:bg-cover mobile:hover:object-cover mobile:hover:inset-2 mobile:hover:shadow-red-700 mobile:shadow-xl;
+  }
+
+  /*footer*/
+
+  .red-div-1 {
+    @apply desktop:w-[100%] desktop:h-[32px] desktop:bg-[#ED1C24]  mobile:w-[100%] mobile:h-[32px] mobile:bg-[#ED1C24];
+  }
+
+  .footer-1 {
+    @apply desktop:w-[100%] desktop:h-[488px] desktop:bg-[#282828] desktop:flex desktop:flex-col desktop:items-center desktop:justify-center desktop:pt-[45px] mobile:w-[100%] mobile:h-[1200px] mobile:bg-[#282828] mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:pt-[20px];
+  }
+
+  .footer-2 {
+    @apply desktop:w-[45%] desktop:bg-inherit desktop:h-[87%] desktop:flex desktop:flex-row-reverse desktop:justify-between mobile:w-full mobile:bg-inherit mobile:flex mobile:flex-col;
+  }
+
+  .footer-3 {
+    @apply desktop:w-[149px] desktop:h-[100%] desktop:flex desktop:flex-col desktop:items-center mobile:w-[100%] mobile:h-[auto] mobile:flex mobile:flex-col mobile:items-center;
+  }
+
+  .footer-4 {
+    @apply desktop:w-[115px] desktop:h-[90px] mobile:w-[140px] mobile:h-[110px];
+  }
+
+  .footer-5 {
+    @apply desktop:w-[100%] desktop:h-[1px] desktop:bg-gray-400 desktop:mt-[17px] mobile:w-[100%] mobile:h-[1px] mobile:bg-gray-400 mobile:mt-[10px];
+  }
+
+  .footer-6 {
+    @apply desktop:w-[100%] desktop:h-[30px] desktop:text-white desktop:text-center desktop:font-fontsans desktop:my-[8px] mobile:w-[100%] mobile:h-[auto] mobile:text-white mobile:text-center mobile:font-fontsans mobile:my-[5px];
+  }
+
+  .footer-7 {
+    @apply desktop:w-[100%] desktop:h-[1px] desktop:bg-gray-400 mobile:w-[100%] mobile:h-[1px] mobile:bg-gray-400;
+  }
+
+  .footer-8 {
+    @apply desktop:w-[100%] desktop:h-[196px] desktop:flex desktop:flex-col desktop:items-end mobile:w-[100%] mobile:h-[auto] mobile:flex mobile:flex-col mobile:items-center desktop:text-right;
+  }
+
+  .footer-9 {
+    @apply desktop:w-[100%] desktop:h-1/5 desktop:text-zinc-400 desktop:font-fontsans desktop:text-[13px] desktop:hover:text-white desktop:my-[5px] mobile:w-[100%] mobile:h-auto mobile:text-zinc-400 mobile:font-fontsans mobile:text-[13px] mobile:hover:text-white mobile:my-[3px];
+  }
+
+  .footer-10 {
+    @apply desktop:w-[100%] desktop:h-[11%] desktop:flex desktop:flex-col desktop:items-center mobile:w-[100%] mobile:h-[auto] mobile:flex mobile:flex-col mobile:items-center;
+  }
+
+  .text-footer {
+    @apply desktop:text-gray-200 mobile:text-gray-200;
+  }
+
+  .footer-12 {
+    @apply desktop:text-gray-400 mobile:text-gray-400;
+  }
+
+  /*weblog*/
+
+  .weblog {
+    @apply desktop:grid desktop:grid-cols-3 desktop:grid-rows-5 desktop:gap-40 desktop:w-[100%] desktop:h-auto desktop:justify-center desktop:pl-[250px] desktop:pr-[250px] desktop:place-items-center mobile:grid mobile:grid-cols-1 mobile:grid-rows-12 mobile:gap-40 mobile:w-[100%] mobile:h-auto mobile:justify-start mobile:place-items-center dark:bg-neutral-800 desktop:py-[70px] mobile:py-[30px];
+  }
+
+  .items {
+    @apply desktop:w-[320px] desktop:h-[557px] desktop:flex desktop:flex-col desktop:justify-items-center desktop:shadow-lg desktop:shadow-zinc-400 desktop:rounded-lg mobile:w-[320px] mobile:h-[557px] mobile:flex mobile:flex-col mobile:shadow-lg mobile:shadow-zinc-400 mobile:rounded-lg desktop:items-end mobile:items-end dark:bg-white;
+  }
+
+  .items-pic {
+    @apply desktop:object-cover desktop:h-[45%] desktop:rounded-lg desktop:hover:opacity-75 mobile:object-cover mobile:h-[45%] mobile:rounded-lg mobile:hover:opacity-75 desktop:w-[100%] mobile:w-[100%];
+  }
+
+  .tittle-web {
+    @apply desktop:w-[100%] desktop:h-[80px] desktop:text-[#FF0000] desktop:font-fontsans desktop:font-thin desktop:mb-[10px] desktop:text-[22px] desktop:pr-[22px] desktop:pt-[28px] mobile:w-[100%] mobile:h-[80px] mobile:text-[#FF0000] mobile:font-fontsans mobile:font-thin mobile:mb-[10px] mobile:text-[22px] mobile:pr-[22px] mobile:pt-[28px] desktop:text-right mobile:text-right;
+  }
+
+  .explains {
+    @apply desktop:px-[22px] desktop:text-[15px] desktop:text-[#a9aaab] desktop:font-fontsans mobile:px-[22px] mobile:text-[15px] mobile:text-[#a9aaab] mobile:font-fontsans desktop:text-right mobile:text-right;
+  }
+
+  .buttom-claases12 {
+    @apply desktop:outline-gray-300 desktop:text-gray-500 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:bg-white mobile:bg-white desktop:transition-all desktop:duration-[300ms] desktop:w-[150px] desktop:font-thin desktop:py-2 desktop:rounded-md desktop:font-fontsans desktop:mb-[17px] desktop:mx-[22px] desktop:mt-[30px] desktop:shadow-lg desktop:shadow-red-400 mobile:outline-gray-300 mobile:text-gray-500 mobile:border-slate-300 mobile:border mobile:hover:bg-red-500 mobile:hover:text-white mobile:transition-all mobile:duration-[300ms] mobile:w-[150px] mobile:font-thin mobile:py-2 mobile:rounded-md mobile:font-fontsans mobile:mb-[17px] mobile:mx-[22px] mobile:mt-[30px] mobile:shadow-lg mobile:shadow-red-400;
+  }
+
+  .buttom-claases122 {
+    @apply desktop:outline-gray-300 desktop:text-gray-500 desktop:border-slate-300 desktop:border desktop:hover:bg-red-500 desktop:hover:text-white desktop:transition-all desktop:duration-[300ms] desktop:w-[150px] desktop:font-thin desktop:py-2 desktop:rounded-md desktop:font-fontsans desktop:mb-[17px] desktop:mx-[22px] desktop:mt-[30px] desktop:shadow-lg desktop:shadow-red-400 mobile:outline-gray-300 mobile:text-gray-500 mobile:border-slate-300 mobile:border mobile:hover:bg-red-500 mobile:hover:text-white mobile:transition-all mobile:duration-[300ms] mobile:w-[150px] mobile:font-thin mobile:py-2 mobile:rounded-md mobile:font-fontsans mobile:mb-[17px] mobile:mx-[22px] mobile:mt-[30px] mobile:shadow-lg mobile:shadow-red-400 dark:bg-white desktop:bg-white mobile:bg-white;
+  }
+
+  .div-200 {
+    @apply desktop:w-[100%] desktop:h-[121px] desktop:flex desktop:justify-end desktop:flex-row mobile:w-[100%] mobile:h-[105px] mobile:flex mobile:justify-end mobile:flex-row mobile:pl-[230px] desktop:pl-[1122px] dark:bg-neutral-700 dark:text-neutral-200;
+  }
+  /*desk*/
+
+  .header-div-1 {
+    @apply desktop:w-[100%] desktop:desktop:h-[100px] desktop:bg-[#252525] desktop:pt-[8px] desktop:pb-[30px] desktop:sticky desktop:inset-0 desktop:z-[999] desktop:flex desktop:justify-center desktop:items-center mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+
+  .header-img-1 {
+    @apply desktop:w-[170px] desktop:h-[105px] desktop:absolute desktop:desktop:right-[260px] desktop:bottom-[-50%] desktop:z-20 mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+
+  .header-div-2 {
+    @apply desktop:w-[100%] desktop:h-[70px] mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+
+  .header-nav-1 {
+    @apply desktop:flex desktop:flex-row desktop:flex-nowrap desktop:justify-center desktop:w-[95%] desktop:h-[60px] desktop:mt-[32px] desktop:pr-[180px] mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+
+  .header-a-1 {
+    @apply desktop:text-[#afb2b4] desktop:mt-[5px] desktop:py-[11px] desktop:px-[20px] desktop:align-top desktop:opacity-[0.9] desktop:h-[100%] desktop:hover:text-white hover:opacity-100 desktop:font-fontsans mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+
+  .header-span-1 {
+    @apply desktop:w-[1px] desktop:h-[50%] desktop:bg-white desktop:absolute desktop:right-0 desktop:top-[5px] desktop:opacity-30 mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+  .header-a-2 {
+    @apply desktop:text-[#afb2b4] desktop:py-[11px] desktop:pt-[5px] desktop:px-[20px] desktop:opacity-[0.9] desktop:w-auto desktop:h-[100%] desktop:font-fontsans desktop:hover:text-white desktop:hover:opacity-100 desktop:relative desktop:z-50 desktop:text-[17px] mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+
+  .header-div-3 {
+    @apply desktop:flex desktop:flex-col desktop:justify-start desktop:p-[10px] desktop:leading-[30px] desktop:group-hover:w-[175px] desktop:group-hover:h-fit desktop:group-hover:bg-neutral-800  desktop:group-hover:absolute desktop:group-hover:top-[50px] desktop:group-hover:right-0 desktop:text-right mobile:object-none mobile:w-0 mobile:h-0 mobile:text-[0];
+  }
+
+  .header-div-4 {
+    @apply desktop:w-[100%] desktop:h-[40px] desktop:text-[15px] desktop:font-fontsans desktop:text-white p-[2px] desktop:opacity-30 desktop:transition-all desktop:duration-300 desktop:ease-linear desktop:hidden desktop:hover:opacity-100 desktop:group-hover:block;
+  }
+
+  .back-to-top {
+    @apply desktop:fixed desktop:w-[40px] desktop:h-[40px] desktop:bottom-4 desktop:right-2 desktop:inline-flex desktop:items-center
+  desktop:justify-center desktop:bg-red-600 desktop:rounded-md desktop:p-[0.5] desktop:transition desktop:ease-in-out desktop:duration-500 desktop:hover:bg-neutral-700  mobile:w-0 mobile:h-0 mobile:object-none;
+  }
+
+  .material-icons {
+    @apply desktop:transition-all desktop:ease-out desktop:hover:translate-y-1;
+  }
+}
